@@ -1,0 +1,5 @@
+kisak = int(input("Kısa Kenarı Giriniz:"))
+uzunk = int(input("Uzun Kenarı Giriniz:"))
+alan = (kisak*uzunk)
+cevre = 2*(kisak+uzunk)
+print("Dikdörtgenin alanı: {0} Çevresi: {1}".format(alan,cevre))
